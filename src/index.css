@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import these fonts from public folder
+betterdelightpersonaluseonl-2oqgv.otf
+ManifestlyRegular-GO84A.ttf
+AbsolutelySilentRegular-w1mY3.ttf
+MostlyFloralRegular-X3PMo.ttf
+SenjaSantuy-yw5qg.otf
+CoffeeSigns-jE7ly.ttf
+Bastinsondemo-MV57n.otf
+Betterlett.otf
+Solustion Demo.otf
+SweetlyScentedRegular-Rp1LM.ttf hendrickson-k7god.otf
+Better Grade.ttf violante.otf
+Biancha-X3VOa.otf
+MettaDahlia-EaEG4.ttf
+Rafaella Signature.ttf
+RetroSignature.otf aAgreementSignature.otf
+Romantica.otf
+Anything.ttf
+NeonBines.otf
+Gillmore.ttf
+Billmore.ttf
+Gatkins-Demo.otf
+Housttely Signature 2.ttf
+Housttely Signature.ttf
+NEONCITY SCRIPT Demo.ttf
+Countryside Personal Use.ttf
+TOMATOES Personal Use.ttf
+Aerioz_Demo.otf
+Neoneon.otf
+Nickainley-Normal.otf
+LasEnter_PersonalUseOnly.ttf
+*/
+
+@font-face {
+    font-family: "Manifestly";
+    src: url("/fonts/ManifestlyRegular-GO84A.ttf") format("truetype");
+    font-weight: 400;
+    size-adjust: 400%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AbsolutelySilent";
+    src: url("/fonts/AbsolutelySilentRegular-w1mY3.ttf") format("truetype");
+    font-weight: 400;
+    size-adjust: 510%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MostlyFloral";
+    src: url("/fonts/MostlyFloralRegular-X3PMo.ttf") format("truetype");
+    font-weight: 400;
+    size-adjust: 410%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SenjaSantuy";
+    src: url("/fonts/SenjaSantuy-yw5qq.otf") format("opentype");
+    font-weight: 400;
+    size-adjust: 300%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CoffeeSigns";
+    src: url("/fonts/CoffeeSigns-jE7ly.ttf") format("truetype");
+    font-weight: 400;
+    size-adjust: 370%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bastinson";
+    src: url("/fonts/Bastinsondemo-MV57n.otf") format("opentype");
+    font-weight: 400;
+    size-adjust: 490%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Betterlett";
+    src: url("/fonts/Betterlett.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 240%;
+}
+
+@font-face {
+    font-family: "Solustion";
+    src: url("/fonts/Solustion Demo.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 350%;
+}
+
+@font-face {
+    font-family: "SweetlyScented";
+    src: url("/fonts/SweetlyScentedRegular-Rp1LM.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 370%;
+}
+
+@font-face {
+    font-family: "Hendrickson";
+    src: url("/fonts/hendrickson-k7god.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 750%;
+}
+
+@font-face {
+    font-family: "Better Grade";
+    src: url("/fonts/Better Grade.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 530%;
+}
+
+@font-face {
+    font-family: "Violante";
+    src: url("/fonts/violante.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 440%;
+}
+
+@font-face {
+    font-family: "Biancha";
+    src: url("/fonts/Biancha-X3VOa.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 300%;
+}
+
+@font-face {
+    font-family: "MettaDahlia";
+    src: url("/fonts/MettaDahlia-EaEG4.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 300%;
+}
+
+@font-face {
+    font-family: "Rafaella Signature";
+    src: url("/fonts/Rafaella Signature.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 350%;
+}
+
+@font-face {
+    font-family: "Retro Signature";
+    src: url("/fonts/RetroSignature.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 420%;
+}
+
+@font-face {
+    font-family: "Agreement Signature";
+    src: url("/fonts/aAgreementSignature.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 400%;
+}
+
+@font-face {
+    font-family: "Romantica";
+    src: url("/fonts/Romantica.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 380%;
+}
+
+@font-face {
+    font-family: "Anything";
+    src: url("/fonts/Anything.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 450%;
+}
+
+@font-face {
+    font-family: "Neon Bines";
+    src: url("/fonts/NeonBines.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 180%;
+}
+
+@font-face {
+    font-family: "Gillmore";
+    src: url("/fonts/Gillmore.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 230%;
+}
+
+@font-face {
+    font-family: "Billmore";
+    src: url("/fonts/Billmore.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    size-adjust: 160%;
+}
+
+
+:root {
+    /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+}
